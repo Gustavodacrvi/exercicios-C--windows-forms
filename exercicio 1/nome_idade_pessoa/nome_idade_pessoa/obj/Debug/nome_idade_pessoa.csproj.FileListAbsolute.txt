@@ -1,0 +1,10 @@
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\bin\Debug\nome_idade_pessoa.exe.config
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\bin\Debug\nome_idade_pessoa.exe
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\bin\Debug\nome_idade_pessoa.pdb
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\obj\Debug\nome_idade_pessoa.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\obj\Debug\nome_idade_pessoa.Form1.resources
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\obj\Debug\nome_idade_pessoa.Properties.Resources.resources
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\obj\Debug\nome_idade_pessoa.csproj.GenerateResource.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\obj\Debug\nome_idade_pessoa.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\obj\Debug\nome_idade_pessoa.exe
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 1\nome_idade_pessoa\nome_idade_pessoa\obj\Debug\nome_idade_pessoa.pdb
