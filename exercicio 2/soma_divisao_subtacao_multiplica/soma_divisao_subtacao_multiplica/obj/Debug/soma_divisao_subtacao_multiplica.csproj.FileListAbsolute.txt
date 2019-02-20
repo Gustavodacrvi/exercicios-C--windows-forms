@@ -1,0 +1,10 @@
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\bin\Debug\soma_divisao_subtacao_multiplica.exe.config
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\bin\Debug\soma_divisao_subtacao_multiplica.exe
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\bin\Debug\soma_divisao_subtacao_multiplica.pdb
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\obj\Debug\soma_divisao_subtacao_multiplica.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\obj\Debug\soma_divisao_subtacao_multiplica.Form1.resources
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\obj\Debug\soma_divisao_subtacao_multiplica.Properties.Resources.resources
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\obj\Debug\soma_divisao_subtacao_multiplica.csproj.GenerateResource.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\obj\Debug\soma_divisao_subtacao_multiplica.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\obj\Debug\soma_divisao_subtacao_multiplica.exe
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 2\soma_divisao_subtacao_multiplica\soma_divisao_subtacao_multiplica\obj\Debug\soma_divisao_subtacao_multiplica.pdb
