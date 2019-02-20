@@ -1,0 +1,10 @@
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\bin\Debug\consumo_medio_automovel.exe.config
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\bin\Debug\consumo_medio_automovel.exe
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\bin\Debug\consumo_medio_automovel.pdb
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\obj\Debug\consumo_medio_automovel.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\obj\Debug\consumo_medio_automovel.Form1.resources
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\obj\Debug\consumo_medio_automovel.Properties.Resources.resources
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\obj\Debug\consumo_medio_automovel.csproj.GenerateResource.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\obj\Debug\consumo_medio_automovel.csproj.CoreCompileInputs.cache
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\obj\Debug\consumo_medio_automovel.exe
+C:\Users\gusta\Desktop\Projects\exercicios-CSHARP-windows-forms\exercicio 3\consumo_medio_automovel\consumo_medio_automovel\obj\Debug\consumo_medio_automovel.pdb
