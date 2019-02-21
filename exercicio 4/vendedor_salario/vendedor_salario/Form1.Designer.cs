@@ -38,6 +38,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.name = new System.Windows.Forms.Label();
+            this.fixo = new System.Windows.Forms.Label();
+            this.final = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -62,7 +65,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(27, 103);
+            this.label3.Location = new System.Drawing.Point(27, 100);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 13);
             this.label3.TabIndex = 2;
@@ -83,6 +86,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(196, 20);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -90,6 +94,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(196, 20);
             this.textBox2.TabIndex = 5;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -97,6 +102,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(196, 20);
             this.textBox3.TabIndex = 6;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // label5
             // 
@@ -125,11 +131,38 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "Salário no final do mês:";
             // 
+            // name
+            // 
+            this.name.AutoSize = true;
+            this.name.Location = new System.Drawing.Point(83, 175);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(0, 13);
+            this.name.TabIndex = 10;
+            // 
+            // fixo
+            // 
+            this.fixo.AutoSize = true;
+            this.fixo.Location = new System.Drawing.Point(108, 209);
+            this.fixo.Name = "fixo";
+            this.fixo.Size = new System.Drawing.Size(0, 13);
+            this.fixo.TabIndex = 11;
+            // 
+            // final
+            // 
+            this.final.AutoSize = true;
+            this.final.Location = new System.Drawing.Point(150, 244);
+            this.final.Name = "final";
+            this.final.Size = new System.Drawing.Size(0, 13);
+            this.final.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(383, 288);
+            this.Controls.Add(this.final);
+            this.Controls.Add(this.fixo);
+            this.Controls.Add(this.name);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -142,6 +175,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -159,6 +193,9 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label name;
+        private System.Windows.Forms.Label fixo;
+        private System.Windows.Forms.Label final;
     }
 }
 
