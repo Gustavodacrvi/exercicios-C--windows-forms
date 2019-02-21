@@ -39,6 +39,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.nome = new System.Windows.Forms.Label();
+            this.media = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -112,6 +114,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(232, 20);
             this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -119,6 +122,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(232, 20);
             this.textBox2.TabIndex = 9;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -126,6 +130,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(232, 20);
             this.textBox3.TabIndex = 10;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -133,12 +138,31 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(232, 20);
             this.textBox4.TabIndex = 11;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // nome
+            // 
+            this.nome.AutoSize = true;
+            this.nome.Location = new System.Drawing.Point(85, 203);
+            this.nome.Name = "nome";
+            this.nome.Size = new System.Drawing.Size(0, 13);
+            this.nome.TabIndex = 12;
+            // 
+            // media
+            // 
+            this.media.AutoSize = true;
+            this.media.Location = new System.Drawing.Point(79, 235);
+            this.media.Name = "media";
+            this.media.Size = new System.Drawing.Size(0, 13);
+            this.media.TabIndex = 13;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(378, 274);
+            this.Controls.Add(this.media);
+            this.Controls.Add(this.nome);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
@@ -171,6 +195,8 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label nome;
+        private System.Windows.Forms.Label media;
     }
 }
 
