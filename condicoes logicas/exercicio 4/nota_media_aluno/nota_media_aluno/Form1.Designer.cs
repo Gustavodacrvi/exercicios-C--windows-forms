@@ -37,6 +37,11 @@
             this.nota1 = new System.Windows.Forms.TextBox();
             this.nota2 = new System.Windows.Forms.TextBox();
             this.nota3 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.nomeLabel = new System.Windows.Forms.Label();
+            this.media = new System.Windows.Forms.Label();
+            this.mencao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -91,6 +96,7 @@
             this.nome.Name = "nome";
             this.nome.Size = new System.Drawing.Size(213, 20);
             this.nome.TabIndex = 5;
+            this.nome.TextChanged += new System.EventHandler(this.nome_TextChanged);
             // 
             // nota1
             // 
@@ -98,6 +104,7 @@
             this.nota1.Name = "nota1";
             this.nota1.Size = new System.Drawing.Size(213, 20);
             this.nota1.TabIndex = 6;
+            this.nota1.TextChanged += new System.EventHandler(this.nota1_TextChanged);
             // 
             // nota2
             // 
@@ -105,6 +112,7 @@
             this.nota2.Name = "nota2";
             this.nota2.Size = new System.Drawing.Size(213, 20);
             this.nota2.TabIndex = 7;
+            this.nota2.TextChanged += new System.EventHandler(this.nota2_TextChanged);
             // 
             // nota3
             // 
@@ -112,12 +120,60 @@
             this.nota3.Name = "nota3";
             this.nota3.Size = new System.Drawing.Size(213, 20);
             this.nota3.TabIndex = 8;
+            this.nota3.TextChanged += new System.EventHandler(this.nota3_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(30, 218);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 13);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Nome:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(30, 252);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(39, 13);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Média:";
+            // 
+            // nomeLabel
+            // 
+            this.nomeLabel.AutoSize = true;
+            this.nomeLabel.Location = new System.Drawing.Point(75, 218);
+            this.nomeLabel.Name = "nomeLabel";
+            this.nomeLabel.Size = new System.Drawing.Size(0, 13);
+            this.nomeLabel.TabIndex = 11;
+            // 
+            // media
+            // 
+            this.media.AutoSize = true;
+            this.media.Location = new System.Drawing.Point(75, 252);
+            this.media.Name = "media";
+            this.media.Size = new System.Drawing.Size(0, 13);
+            this.media.TabIndex = 12;
+            // 
+            // mencao
+            // 
+            this.mencao.AutoSize = true;
+            this.mencao.Location = new System.Drawing.Point(210, 252);
+            this.mencao.Name = "mencao";
+            this.mencao.Size = new System.Drawing.Size(0, 13);
+            this.mencao.TabIndex = 13;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(365, 321);
+            this.ClientSize = new System.Drawing.Size(365, 303);
+            this.Controls.Add(this.mencao);
+            this.Controls.Add(this.media);
+            this.Controls.Add(this.nomeLabel);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.nota3);
             this.Controls.Add(this.nota2);
             this.Controls.Add(this.nota1);
@@ -145,6 +201,11 @@
         private System.Windows.Forms.TextBox nota1;
         private System.Windows.Forms.TextBox nota2;
         private System.Windows.Forms.TextBox nota3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label nomeLabel;
+        private System.Windows.Forms.Label media;
+        private System.Windows.Forms.Label mencao;
     }
 }
 
