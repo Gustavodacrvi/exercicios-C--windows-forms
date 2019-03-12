@@ -52,5 +52,10 @@ namespace imc
         {
             calcular();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

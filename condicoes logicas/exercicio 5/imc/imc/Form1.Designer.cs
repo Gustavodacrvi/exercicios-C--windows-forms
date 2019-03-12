@@ -52,18 +52,19 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(33, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 13);
+            this.label2.Size = new System.Drawing.Size(37, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Altura em m:";
+            this.label2.Text = "Altura:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(33, 131);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 13);
+            this.label3.Size = new System.Drawing.Size(34, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Peso em kg:";
+            this.label3.Text = "Peso:";
             // 
             // altura
             // 
