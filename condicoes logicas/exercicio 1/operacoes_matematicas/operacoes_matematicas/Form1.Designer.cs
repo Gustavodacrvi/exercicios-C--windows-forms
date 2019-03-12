@@ -28,33 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.valor1 = new System.Windows.Forms.TextBox();
-            this.valor2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.resultado = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.somar = new System.Windows.Forms.Button();
+            this.multiplicar = new System.Windows.Forms.Button();
+            this.subtrair = new System.Windows.Forms.Button();
+            this.dividir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // valor1
+            // textBox1
             // 
-            this.valor1.Location = new System.Drawing.Point(82, 89);
-            this.valor1.Name = "valor1";
-            this.valor1.Size = new System.Drawing.Size(196, 20);
-            this.valor1.TabIndex = 0;
+            this.textBox1.Location = new System.Drawing.Point(82, 89);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(196, 20);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.valor1_TextChanged);
             // 
-            // valor2
+            // textBox2
             // 
-            this.valor2.Location = new System.Drawing.Point(82, 128);
-            this.valor2.Name = "valor2";
-            this.valor2.Size = new System.Drawing.Size(196, 20);
-            this.valor2.TabIndex = 1;
-            this.valor2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox2.Location = new System.Drawing.Point(82, 128);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(196, 20);
+            this.textBox2.TabIndex = 1;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label1
             // 
@@ -77,7 +78,7 @@
             // resultado
             // 
             this.resultado.AutoSize = true;
-            this.resultado.Location = new System.Drawing.Point(86, 279);
+            this.resultado.Location = new System.Drawing.Point(86, 249);
             this.resultado.Name = "resultado";
             this.resultado.Size = new System.Drawing.Size(0, 13);
             this.resultado.TabIndex = 4;
@@ -96,64 +97,68 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(22, 256);
+            this.label3.Location = new System.Drawing.Point(22, 249);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Resultado:";
             // 
-            // button1
+            // somar
             // 
-            this.button1.Location = new System.Drawing.Point(34, 175);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(119, 23);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Soma";
-            this.button1.UseVisualStyleBackColor = true;
+            this.somar.Location = new System.Drawing.Point(34, 175);
+            this.somar.Name = "somar";
+            this.somar.Size = new System.Drawing.Size(119, 23);
+            this.somar.TabIndex = 7;
+            this.somar.Text = "Soma";
+            this.somar.UseVisualStyleBackColor = true;
+            this.somar.Click += new System.EventHandler(this.somar_Click);
             // 
-            // button2
+            // multiplicar
             // 
-            this.button2.Location = new System.Drawing.Point(34, 204);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 23);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Multiplicação";
-            this.button2.UseVisualStyleBackColor = true;
+            this.multiplicar.Location = new System.Drawing.Point(34, 204);
+            this.multiplicar.Name = "multiplicar";
+            this.multiplicar.Size = new System.Drawing.Size(119, 23);
+            this.multiplicar.TabIndex = 8;
+            this.multiplicar.Text = "Multiplicação";
+            this.multiplicar.UseVisualStyleBackColor = true;
+            this.multiplicar.Click += new System.EventHandler(this.multiplicar_Click);
             // 
-            // button3
+            // subtrair
             // 
-            this.button3.Location = new System.Drawing.Point(193, 175);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 23);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Subtração";
-            this.button3.UseVisualStyleBackColor = true;
+            this.subtrair.Location = new System.Drawing.Point(193, 175);
+            this.subtrair.Name = "subtrair";
+            this.subtrair.Size = new System.Drawing.Size(119, 23);
+            this.subtrair.TabIndex = 9;
+            this.subtrair.Text = "Subtração";
+            this.subtrair.UseVisualStyleBackColor = true;
+            this.subtrair.Click += new System.EventHandler(this.subtrair_Click);
             // 
-            // button4
+            // dividir
             // 
-            this.button4.Location = new System.Drawing.Point(193, 204);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(119, 23);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "Divisão";
-            this.button4.UseVisualStyleBackColor = true;
+            this.dividir.Location = new System.Drawing.Point(193, 204);
+            this.dividir.Name = "dividir";
+            this.dividir.Size = new System.Drawing.Size(119, 23);
+            this.dividir.TabIndex = 10;
+            this.dividir.Text = "Divisão";
+            this.dividir.UseVisualStyleBackColor = true;
+            this.dividir.Click += new System.EventHandler(this.dividir_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(361, 284);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(361, 290);
+            this.Controls.Add(this.dividir);
+            this.Controls.Add(this.subtrair);
+            this.Controls.Add(this.multiplicar);
+            this.Controls.Add(this.somar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.resultado);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.valor2);
-            this.Controls.Add(this.valor1);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -164,17 +169,17 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox valor1;
-        private System.Windows.Forms.TextBox valor2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label resultado;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button somar;
+        private System.Windows.Forms.Button multiplicar;
+        private System.Windows.Forms.Button subtrair;
+        private System.Windows.Forms.Button dividir;
     }
 }
 

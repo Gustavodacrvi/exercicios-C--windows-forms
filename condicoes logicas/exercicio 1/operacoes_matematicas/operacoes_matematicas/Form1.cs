@@ -31,5 +31,49 @@ namespace operacoes_matematicas
         {
 
         }
+
+        private void somar_Click(object sender, EventArgs e)
+        {
+            int valor1, valor2;
+            if (Int32.TryParse(textBox1.Text, out valor1) && Int32.TryParse(textBox2.Text, out valor2))
+            {
+                resultado.Text = Convert.ToString(valor1 + valor2);
+            }
+        }
+
+        private void valor1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void subtrair_Click(object sender, EventArgs e)
+        {
+            int valor1, valor2;
+            if (Int32.TryParse(textBox1.Text, out valor1) && Int32.TryParse(textBox2.Text, out valor2))
+            {
+                resultado.Text = Convert.ToString(valor1 - valor2);
+            }
+        }
+
+        private void multiplicar_Click(object sender, EventArgs e)
+        {
+            int valor1, valor2;
+            if (Int32.TryParse(textBox1.Text, out valor1) && Int32.TryParse(textBox2.Text, out valor2))
+            {
+                resultado.Text = Convert.ToString(valor1 * valor2);
+            }
+        }
+
+        private void dividir_Click(object sender, EventArgs e)
+        {
+            int valor1, valor2;
+            if (Int32.TryParse(textBox1.Text, out valor1) && Int32.TryParse(textBox2.Text, out valor2))
+            {
+                if (valor2 != 0)
+                {
+                    resultado.Text = Convert.ToString(valor1 / valor2);
+                }
+            }
+        }
     }
 }
