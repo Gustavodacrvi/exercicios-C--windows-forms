@@ -63,7 +63,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Valor 1:";
+            this.label3.Text = "Valor 2:";
             // 
             // label4
             // 
@@ -80,6 +80,7 @@
             this.input1.Name = "input1";
             this.input1.Size = new System.Drawing.Size(230, 20);
             this.input1.TabIndex = 4;
+            this.input1.TextChanged += new System.EventHandler(this.input1_TextChanged);
             // 
             // input2
             // 
@@ -87,6 +88,7 @@
             this.input2.Name = "input2";
             this.input2.Size = new System.Drawing.Size(230, 20);
             this.input2.TabIndex = 5;
+            this.input2.TextChanged += new System.EventHandler(this.input2_TextChanged);
             // 
             // resultado
             // 
