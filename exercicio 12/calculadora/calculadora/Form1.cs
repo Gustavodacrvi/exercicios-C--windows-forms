@@ -16,5 +16,25 @@ namespace calculadora
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void forButton_Click(object sender, EventArgs e)
+        {
+            int ipt;
+            int result;
+
+            if (Int32.TryParse(input.Text, out ipt))
+            {
+                for (int i=1;i<11;i++)
+                {
+                    result = i * ipt;
+                    forLabel.Text += "" + Convert.ToString(ipt) + " x " + Convert.ToString(i) + " = " + Convert.ToString(result) + "\n";
+                }
+            }
+        }
     }
 }
