@@ -74,5 +74,12 @@ namespace calculadora
                 } while (i < 10);
             }
         }
+
+        private void input_TextChanged(object sender, EventArgs e)
+        {
+            forLabel.Text = "";
+            whileLabel.Text = "";
+            doWhileLabel.Text = "";
+        }
     }
 }
