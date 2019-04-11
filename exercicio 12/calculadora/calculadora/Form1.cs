@@ -22,6 +22,7 @@ namespace calculadora
 
         }
 
+
         private void forButton_Click(object sender, EventArgs e)
         {
             int ipt;
@@ -33,6 +34,24 @@ namespace calculadora
                 {
                     result = i * ipt;
                     forLabel.Text += "" + Convert.ToString(ipt) + " x " + Convert.ToString(i) + " = " + Convert.ToString(result) + "\n";
+                }
+            }
+        }
+
+        private void whileButton_Click(object sender, EventArgs e)
+        {
+            int ipt;
+            int result;
+
+            if (Int32.TryParse(input.Text, out ipt))
+            {
+                int i = 1;
+                while (i < 11)
+                {
+                    result = i * ipt;
+                    forLabel.Text += "" + Convert.ToString(ipt) + " x " + Convert.ToString(i) + " = " + Convert.ToString(result) + "\n";
+
+                    i++;
                 }
             }
         }

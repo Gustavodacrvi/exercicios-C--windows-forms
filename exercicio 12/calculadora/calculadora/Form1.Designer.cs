@@ -76,6 +76,7 @@
             this.whileButton.TabIndex = 4;
             this.whileButton.Text = "While";
             this.whileButton.UseVisualStyleBackColor = true;
+            this.whileButton.Click += new System.EventHandler(this.whileButton_Click);
             // 
             // doWhileButton
             // 
