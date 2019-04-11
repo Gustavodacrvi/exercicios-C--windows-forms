@@ -86,6 +86,7 @@
             this.doWhileButton.TabIndex = 5;
             this.doWhileButton.Text = "Do While";
             this.doWhileButton.UseVisualStyleBackColor = true;
+            this.doWhileButton.Click += new System.EventHandler(this.doWhileButton_Click);
             // 
             // forLabel
             // 

@@ -55,5 +55,24 @@ namespace calculadora
                 }
             }
         }
+
+        private void doWhileButton_Click(object sender, EventArgs e)
+        {
+            int ipt;
+            int result;
+
+            if (Int32.TryParse(input.Text, out ipt))
+            {
+                int i = 0;
+                do
+                {
+                    i++;
+
+                    result = i * ipt;
+                    doWhileLabel.Text += "" + Convert.ToString(ipt) + " x " + Convert.ToString(i) + " = " + Convert.ToString(result) + "\n";
+
+                } while (i < 10);
+            }
+        }
     }
 }
